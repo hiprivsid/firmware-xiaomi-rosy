@@ -24,7 +24,7 @@ package() {
 	# GPU and video acceleration firmwares
 	install -Dm0644 gpu/a530* -t "$pkgdir/$_fwdir/../qcom"
 	install -Dm0644 gpu/a506_zap.* -t "$pkgdir/$_fwdir"
-  install -Dm0644 venus/venus.* -t "$pkgdir/$_fwdir"
+        install -Dm0644 venus/venus.* -t "$pkgdir/$_fwdir"
 
 	# Modem firmware
 	install -Dm0644 modem/mba.mbn -t "$pkgdir/$_fwdir"
